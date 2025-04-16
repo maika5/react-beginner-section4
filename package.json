@@ -1,9 +1,11 @@
 {
   "name": "react-beginner-section4",
   "version": "1.0.0",
-  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
   "license": "MIT",
-  "dependencies": {
-    "parcel-bundler": "^1.12.5"
+  "devDependencies": {
+    "parcel": "^2.14.4"
   }
 }
